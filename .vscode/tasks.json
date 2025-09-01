@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build:all",
+      "type": "shell",
+      "command": "for d in Scripts/*; do [ -d \"$d\" ] && dotnet build \"$d\" -c Release; done",
+      "problemMatcher": "$msCompile",
+      "windows": {
+        "command": "for /D %%d in (Scripts\\*) do dotnet build \"%%d\" -c Release"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[submodule "Scripts/VIOS-Dev"]
+	path = Scripts/VIOS-Dev
+	url = git@github.com:geho/SE-mdk2pbscript-VIOS-Dev.git
+	branch = main
+[submodule "Mixins/VIOS"]
+	path = Mixins/VIOS
+	url = git@github.com:geho/SE-mdk2mixin-VIOS.git
+	branch = main

@@ -1,0 +1,12 @@
+{
+  "folders": [
+    { "path": "." },
+    { "path": "Scripts/VIOS-Dev" },
+    { "path": "Mixins/VIOS" }
+  ],
+  "settings": {
+    "files.exclude": { "**/bin": true, "**/obj": true },
+    "dotnet.server.useOmnisharp": false,
+    "files.eol": "\n"
+  }
+}
